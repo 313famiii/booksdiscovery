@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(12, 230, 84);
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(12, 230, 84);
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#4CAF50;
+    padding: 15px;
+}
+
+.nav-links a{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.container {
+    padding: 17px;
+    text-align: center;
+    color: black;
+}
+
+.book {
+    margin: 30px;
+    padding: 10px;
+    border: 2.3px solid #000000;
+    border-radius: 5.5px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;    
+    width: auto;
+}

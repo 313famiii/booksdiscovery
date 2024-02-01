@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt"> <!--Liguagem utilizada no programa-->
+<head>
+    <meta charset="UTF-8"> <!--Tipo de codificação-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Discovery</title> <!--titulo da pagina web-->
+    <link rel="stylesheet" href="styles.css"> <!--Ligação do html ao css-->
+</head>
+<body>
+    <nav class="navbar"> <!--cria uma nav bar-->
+        <div class="logo">
+            <a href="index.html">
+                <img src="booksdiscovery.png" alt="Logo" class="logo"><!--logotipo do website-->
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="historico.html"><font color="blue">Ver historico </font></a><!--Abre uma página com o histórico do site-->
+            <a href="sugestões.html"><font color="blue">Sugestões</font></a><!--Abre uma pagina sobre as sugestões do site-->
+            <a href="pnl.html"><font color="blue">Ver PNL</font></a><!--Abre uma página para ver o plano nacional de leitura-->
+            <a href="sobre.html"><font color="blue"> Sobre</font></a><!--Abre uma pagina sobre as informações do site-->
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Pesquisa de Livros</h1>
+        <input type="text" id="searchInput" placeholder="Digite o nome do livro ou autor"> <!-- Caixa onde vai ser inserido o texto-->
+        <button onclick="searchBooks()">Pesquisar</button> <!--Botão de pesquisar e que excuta a funcão searchBooks-->
+        <div id="results"></div> <!--Apresenta os resultados da pesquisa-->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script><!--Ligação a bibloteca javascript jquery(serve para criar elementos HTML)-->
+    <script src="historico.js"></script><!--Ligação ao ficheiro javascrip-->
+    <script src="script.js"></script> <!--Ligação ao ficheiro de javascript-->
+</body>
+</html>
